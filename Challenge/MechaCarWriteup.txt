@@ -1,0 +1,12 @@
+##MPG Regression
+According to the results, vehicle length, vehicle weight and ground clearence statistically provide non-random amount to the mpg value in the dataset. The intercept is also statistically significant and there may be other varibles not listed that contribute to the variation in mpg. The p-value of this linear regression analysis is 5.35e-11 and it is smaller then the significant level 0.05%, so the slope of this linear model is not 0. The prediction of mpg of MechaCar prototypes by this linear model is around 71%, according to the R-squared value. The prediction will be pretty effective.
+
+###Suspension Coil Summary
+The mean PSI is 1499.531 with standard variation 8.73. The median PSI is 1499.747, which is very close to the mean. The variance of PSI is 76.23, which is lower than 100 pounds per inch. Therefore, the current manufacturing data meet this design specification.
+
+
+##Suspension Coil T-Test
+Based on the t-test result, the p-value is 0.4894 which is above the 0.05% significance level. Therefore the suspension coil's pound-per-inch results are statistically similar to the mean population results of 1500 pounds per inch.
+
+##Design Your Own Study
+In order to compare the perfomace of the MechaCar prototype cars to others, mechanical functions would be more interest to the buyers. We can collect mpg, horsepower and cylinder data. Two-way ANOVA will be used for statisical analysis. Our null hypothesis is that the data of all cars are not statistically different, which means their performace are similar. The alternative hypothesis is that at least one of the cars are statstical different than the others, which means some perform better. We can also calculate the mean and stand deviation to compare the actual values of all the vehicles.
